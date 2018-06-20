@@ -1,0 +1,141 @@
+header {
+    width: 100%;
+    justify-content: right;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    background: url(../images/nav.jpg);
+}
+
+body {
+    background: url(../images/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    transition: all ease .8s;
+}
+
+nav ul li a:hover {
+    background: #f5b3aae5;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    display: none;
+}
+
+nav ul li ul li {
+    display: block !important;
+    width: 100% !important;
+}
+
+nav ul li ul a {
+    color: blue;
+    display: block;
+    width: 100%;
+}
+
+nav ul li ul a:hover {
+    background: #276dae;
+}
+
+
+/***    carousel    *****/
+
+.carousel {
+    top: 15%;
+    background: #23242442;
+}
+
+.carousel .d-block {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+}
+
+
+/*  primera imagen */
+
+#fondoa {
+    background: url(../images/fondoa.jpg);
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.letra>.deslizar>div {
+    color: rgba(90, 8, 8, 0.664);
+    text-align: center;
+    font: 5px italic;
+}
+
+.letra>.deslizar>p {
+    color: rgb(85, 8, 8);
+    font: italic 20px;
+}
+
+.letra {
+    top: 65%;
+    position: absolute;
+    width: 100%;
+    height: 100% auto;
+    text-align: center;
+    background: rgba(248, 203, 167, 0.541);
+}
+
+.deslizar {
+    width: 50%;
+    margin: auto;
+}
+
+
+/******************/
+
+#accordion {
+    width: 75%;
+    margin: 0% auto;
+    text-align: center;
+}
+
+
+/*************************/
+
+footer {
+    width: 100%;
+    height: 25px;
+    background: url(../images/nav.jpg);
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}
+
+
+/*****************************/
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}

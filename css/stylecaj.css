@@ -1,0 +1,106 @@
+header {
+    background: white;
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background: url(../images/fondoc.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.carrusel {
+    background: #23242442;
+}
+
+.carrusel .uk-panel {
+    top: 10%;
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+}
+
+
+/*  primera imagen */
+
+#imagenes {
+    background: rgba(0, 0, 0, 0.459);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+/*      acordion        */
+
+#accordion {
+    width: 75%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.514);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#slider {
+    width: 75%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.699);
+    background-size: cover;
+    text-align: center;
+}
+
+
+/*  parrafo     */
+
+.parrafo .sub {
+    color: white;
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 17px;
+    margin: 20px 40px;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: #380101c9;
+    line-height: 20pt;
+}
+
+.parrafo .cont {
+    color: white;
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 80%;
+    margin: 5px 35px;
+}
+
+.parrafo {
+    background: #000000d8;
+    border-radius: 26px 26px 26px 26px;
+    -moz-border-radius: 26px 26px 26px 26px;
+    -webkit-border-radius: 26px 26px 26px 26px;
+    margin: 12px 30px;
+    opacity: 0.7;
+}
+
+
+/*  Album   */
+
+.album {
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+
+/*  footer  */
+
+footer {
+    width: 100%;
+    height: 40px;
+    background: white;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cajamarca</title>
+
+    <link rel="stylesheet" type="text/css" href="css/stylecaj.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+
+</head>
+<header>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="index.html" class="icon icon-android" style="color:  rgba(88, 4, 4, 0.616)">Mi Blog</a></li>
+                <li class="uk-active">
+                    <a href="index.html" class="icon icon-windows8" style="color:  rgba(88, 4, 4, 0.616)">Preferencias</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Historia</a></li>
+                            <li><a href="#">Folcklore</a></li>
+                            <li><a href="#">Gastronomía</a></li>
+                            <li><a href="#">Costumbres</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="uk-active"><a href="cajamarca.html" class="icon icon-codepen" style="color: rgba(88, 4, 4, 0.616)">Cajamarca</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+
+
+<body>
+    <section id="imagenes">
+        <div class="carrusel">
+            <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider="center: true;autoplay: true;autoplay-interval: 2000">
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj1.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>1</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj2.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>2</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj3.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>3</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj4.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>4</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj5.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>5</h1>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="uk-width-3-4">
+                        <div class="uk-panel">
+                            <img src="images/caj6.jpg" style="width: 100%;height: 250px;opacity: 0.7;">
+                            <div class="uk-position-center uk-panel">
+                                <h1>6</h1>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+        </div>
+    </section>
+    </br>
+    </br>
+
+    <div id="accordion">
+        <div uk-accordion="multiple: true">
+            <li class="uk-open">
+                <a class="uk-accordion-title" style="background: rgb(176, 214, 118, 0.284);color: white;font-weight: bold;font-family: Verdana;font-size: 20px;" href="#">DATOS IMPORTANTES</a>
+                <div class="uk-accordion-content" style="background: rgba(249, 250, 173, 0.582);opacity: 0.6">
+                    <div class="uk-section">
+                        <div class="uk-container">
+                            <div class="uk-child-width-1-2@m" uk-grid>
+                                <div class="imagen" style="width:50%;text-align: right;">
+                                    <img src="images/mapa.png" style="width: 260px; height: 310px;">
+                                </div>
+                                <div class="datos" style="width:50%;text-align: left">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <h6 class="text-capitalize text-info text-left">Departamento:</h6>
+                                            <p class="text-justify et-black et-black">Cajamarca</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6 class="text-capitalize text-info text-left">Capital</h6>
+                                        </div>
+                                        <div class="col-8 ">
+                                            <p class="text-justify et-black et-black">Cajamarca</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6 class="text-capitalize text-info text-left">Fundación:</h6>
+                                        </div>
+                                        <div class="col-8">
+                                            <p class="text-justify et-black">11 de febrero de 1855</p>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6 class="text-capitalize text-info text-left">Gobernador</h6>
+                                        </div>
+                                        <div class="col-8">
+                                            <p class="text-justify et-black">Porfirio Medina Vásquez</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-open">
+                <a class="uk-accordion-title" style="background: rgb(176, 214, 118, 0.284);color: white;font-weight: bold;font-family: Verdana;font-size: 20px;" href="#">UN POCO DE HISTORIA</a>
+                <div class="uk-accordion-content">
+                    <div class="parrafo">
+                        <h3 class="sub">Reseña Histórica</h3>
+                        <p class="cont">Es uno de los departamentos más significativos en la historia del Perú. Se puede afirmar, con total seguridad, que en la ciudad del mismo Nombre se puso punto final al esplendoroso Imperio de los Incas, a la vez que empezó la era
+                            del colonialismo.
+                            </br>Quienes visitan Cajamarca no podrán dejar de revivir una escena que marcó sombriamente el destino del <i>Tahuantinsuyo</i>. El 15 de Noviembre de 1532, el conquistador <i>Francisco Pizarro</i> llegó hasta la actual plaza
+                            de armas, donde espero al <i>Inca Atahualpa</i>, el último monarca de la dinastía <i>Inca</i> quién se encontraba reposando en el los ahora llamados <i>Baños del inca</i>.
+                        </p>
+                        </br>
+                    </div>
+                    <div class="parrafo">
+                        <h3 class="sub">Primeros Pobladores</h3>
+                        <p class="cont">Los primeros pobladores que habitaron los Andes Peruanos, llegaron hace 20 mil Años Aprox. Se encontraban en un estado muy inferior de desarrollo y así tuvieron que hacer frente a un medio natural muy diferente al actual, al que
+                            todos conocemos. Por ejemplo la costa era muy húmeda y con presencia de bosques, y en la sierra los nevados llegaban a alturas mas bajas que las actuales.
+                            </br>Es muy Difícil determinar en qué época llegaron los hombres a la zona de <i>Cajamarca.</i> Arribaron en estado primitivo, pero gracias a su capacidad creadora fueron superándose, hasta constituir, mas tarde una gran <i>Cultura</i>.
+                        </p>
+                        </br>
+                    </div>
+                    <div class="album">
+                        <div class="uk-position-relative" uk-slideshow="animation: fade">
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <img src="images/his1.jpg" height="150px" alt="" uk-cover>
+                                </li>
+                                <li>
+                                    <img src="images/his2.jpg" height="150px" alt="" uk-cover>
+                                </li>
+                                <li>
+                                    <img src="images/his3.jpg" height="150px" alt="" uk-cover>
+                                </li>
+                                <li>
+                                    <img src="images/his4.JPG" height="150px" alt="" uk-cover>
+                                </li>
+                            </ul>
+
+                            <div class="uk-position-bottom-center uk-position-small">
+                                <ul class="uk-thumbnav">
+                                    <li uk-slideshow-item="0">
+                                        <a href="#"><img src="images/his1.jpg" width="40" height="60" alt=""></a>
+                                    </li>
+                                    <li uk-slideshow-item="1">
+                                        <a href="#"><img src="images/his2.jpg" width="40" height="60" alt=""></a>
+                                    </li>
+                                    <li uk-slideshow-item="2">
+                                        <a href="#"><img src="images/his3.jpg" width="40" height="6%" alt=""></a>
+                                    </li>
+                                    <li uk-slideshow-item="3">
+                                        <a href="#"><img src="images/his4.JPG" width="40" height="60" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </br>
+                </div>
+            </li>
+        </div>
+    </div>
+
+    </br>
+    <section id="slider">
+        <div uk-slider="center: true">
+            <div class="uk-position-relative uk-visible-toggle uk-light">
+                </br>
+                <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/folck.jpg" style="width: 100%;height: 250px" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Folkclore</h3>
+                                <p>El mestizaje del pueblo <i>Cajamarquino</i>, es tan rico en matices y tan abundante en picardia y gracia</p>
+                            </div>
+                            <div>
+                                <p uk-margin>
+                                    <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle style="background: rgb(0, 0, 255)">Leer >></a>
+                                    <a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle style="background: rgb(0, 0, 255)">Imagenes</a>
+                                </p>
+                                <div id="modal-group-1" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Folcklore</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <p><i>Nazario Chávez</i>, en un estudio sobre el rico folklore cajamarquino, menciona una de las características del habla local: cierto dejo o canto final al hablar, y el uso de aumentativos o diminutivos (golpazo,
+                                                ratito, etc.).<br>Los cajamarquinos cantan a todo. Y en sus versos muchas veces improvisados, resaltan el amor la ingratitud, la patria, la esperanza, el dolor. También saben reír con picardía.
+                                                </br>El espíritu religioso del cajamarquino, por temperamento y por ancestro, aflora en los versos de las pallas, en las procesiones. Las danzas de Cajamarca son variadas y muy difundidas, por lo que merecen
+                                                perdurar en el tiempo. Para que ello ocurra, es menester que su difusión y práctica se promuevan prioritariamente en el medio escolar.
+                                                </br>
+                                                </br>Cachua o cashua: Baile típicamente cajamarquino, caracterizado por su desplazamiento lento y suave; no se acostumbra el zapateo. Una variante denominada "gavilán" consiste en quitarse el pañuelo entre las
+                                                parejas.
+                                                </br>
+                                                </br>Chunchos o danza blanca: Son grupos de 12 o más danzarines vestidos con saco y pantalón de color blanco sujeto por maichales (semillas), que sirven como adorno y emiten agradables sonidos al compás del baile.
+                                                Usan pañuelo de color en el cuello, portan una bandera y llevan además una calabaza con chicha.
+                                                </br>Otros personajes de esta danza son el "chuncho negro" que lleva saco azul u oscuro, una máscara de color negro con aplicaciones de vivos rojos, marcando ojos, nariz y orejas, y un látigo con mango de
+                                                madera; el "capitán de baile", que dirige la danza y los pasos para realizar diferentes figuras; el "negro", personaje gracioso, que asusta y hace chistes a los espectadores, recolectando las viandas de
+                                                comida para el grupo. Entre lo más característico del baile está dejar el pañuelo en el suelo y recogerlo con la boca.
+                                                </br>
+                                                </br>Pallas: Danza efectuada sólo por mujeres alegres y bonitas, con mucho garbo y estilo. Llevan una vestimenta elegante y atractiva, consistente en un sombrero blanco con cinta negra, blusa de color celeste,
+                                                blanco o rosado, pechera bordada, anaco o pollera plisada de color negro, aretes largos, gargantillas y sortijas en todos los dedos. Las pallas van bailando y cantando por las calles dirigidas por una capitana
+                                                que va dando la voz para que entonen diferentes canciones.</br>
+                                                </br>
+                                                Carnaval de Cajamarca: El Carnaval de Cajamarca ha adquirido características muy propias y con la participación de instituciones, barrios, etc. La celebración dura aproximadamente un mes, pero los días centrales se reducen a 8. Estas danzas no son las
+                                                únicas del departamento, pero son unas de las de mayor reconocimiento en el país. Por tanto, la responsabilidad de sus aficionados es mayor, no sólo en lo que a su presentación local respecta, sino en su
+                                                difusión fuera de Cajamarca, ya que con ello promueven su conocimiento y, al propiciar que sea admirada, fijan en la mente del observador de la danza la imagen del lugar de donde ésta proviene.
+                                                </br>
+                                                </br>Los visitantes, por su parte, suelen disfrutar y participar de todos los movimientos y aprecian lo novedoso de los ritmos y significados de las danzas. A nuestro entender, las danzas tienen un rol trascendente
+                                                en la puesta en valor de Cajamarca en el mercado turístico. Y es que la música, el vestuario y la coreografía de sus danzas grafican claramente el alma del pueblo cajamarquino.</p>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Imagenes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-group-2" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Imagenes</h2>
+                                        </div>
+                                        <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/folck1.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/folck2.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/folck3.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/folck4.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Leer >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/gast.jpg" style="width: 100%;height: 250px" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Gastronomía</h3>
+                                <p>Los platos cajamarquinos destacan por ser tradicionales, desde tiempos ancestrales e incas</p>
+                            </div>
+                            <div>
+                                <p uk-margin>
+                                    <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle style="background: rgb(0, 0, 255)">Leer >></a>
+                                    <a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle style="background: rgb(0, 0, 255)">Imagenes</a>
+                                </p>
+                                <div id="modal-group-1" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Gastronomía</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <p>Buen aroma. Buen sabor. La gastronomía de Cajamarca mezcla variedad de productos andinos y españoles para brindar sus mejores platos. Sea en una fiesta del pueblo o en una reunión de casa, usted se deleitará
+                                                disfrutando de estos platos típicos:
+                                                </br>
+                                                </br><i>El cuy frito con picante de papa:</i> Aderezado con maní, ají panca, pimienta y sal, su delicioso sabor se comparte con guiso de papa, una sarsa de cebolla picada y tiritas de rocoto.
+                                                </br><i>Chicharrón con mote:</i> Pruebe la crocante carne de cerdo acompañada de un puñado de mote sancochado.
+                                                </br><i>Las humitas dulces o saladas:</i> Maíz tierno molido cocinados al vapor y envueltos en hojas de pancas. Al probarlos sentirá su relleno de queso, pasas y canela.
+                                                </br><i>El caldo verde:</i> De raíces campesinas en su preparaciones mezclan las papas, los huevos, los quesillos y las hierbas aromáticas como el paico, la el hierbabuena y perejil.
+                                                </br>
+                                                </br> Y como final de esta celebración comensal, en su mesa estarán el manjar y el dulce de leche, deliciosos postres cajamarquinos elaborado tradicionalmente a fuego lento.
+                                            </p>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Imagenes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-group-2" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Imagenes</h2>
+                                        </div>
+                                        <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/gast1.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/gast2.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/gast3.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/gast4.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Leer >></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/tour.jpg" style="width: 100%;height: 250px" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Turismo</h3>
+                                <p>Cajamarca, tierra de campiñas, historia y turismo. Ciudad donde se aprecia la unión de la culturas.</p>
+                            </div>
+                            <div>
+                                <p uk-margin>
+                                    <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle style="background: rgb(0, 0, 255)">Leer >></a>
+                                    <a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle style="background: rgb(0, 0, 255)">Imagenes</a>
+                                </p>
+                                <div id="modal-group-1" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Turismo</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <p>Cajamarca es una tierra donde la historia se une a la naturaleza para crear una experiencia inolvidable.
+                                                </br>Aqui encontramos:
+                                                </br>
+                                                </br>
+                                                <i>Baños del Inca: </i> Los baños termales rejuvenecedores y naturales los cuales sirvieron a la realeza inca estan localizados a 8 kilómetros de la ciudad.
+                                                </br>
+                                                </br>
+                                                <i>Ventanillas de Otuzco: </i>Es un cementerio antiguo que data de la cultura Cajamarca y probablemente estuvo influenciada por el imperio Wari. Cientos de galerías y nichos individuales parecidos a unas
+                                                ventanas, fueron tallados en roca volcánica. Los nichos son de 8 a 10 metros de profundidad, de 50 a 60 cm. de alto y de forma cuadrada o rectangular.
+                                                </br>
+                                                </br>
+                                                <i>Cumbe Mayo: </i>Descubierta en 1937, el sitio tiene cuevas que contienen petroglíficos, así como también canales de regadío de sorprendente ingeniería, los cuales corren por muchos kilómetros a lo largo
+                                                del camino. Cumbe Mayo está rodeado por un fantástico bosque de piedras que parece reproducir la silueta de piadosos frailes por lo que familiarmente se les denomina “frailones”.
+                                                </br>
+                                                </br>
+                                                <i>Granja Porcón: </i>Los miembros de esta cooperativa han decidido abrir sus puertas al turismo, donde es posible apreciar su forma de vida y participar en las labores agrícolas, ganaderas y forestales;
+                                                además, se pueden realizar caminatas por el bosque y el campo. La Granja Porcón reúne en un solo lugar agroturismo, naturaleza e intercambio cultural.
+                                            </p>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Imagenes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-group-2" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Imagenes</h2>
+                                        </div>
+                                        <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="images/tour1.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="images/tour2.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="images/tour3.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/tour4.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/tour5.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="images/tour6.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Leer >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="uk-card uk-card-default">
+                            <div class="uk-card-media-top">
+                                <img src="images/cos.jpg" style="width: 100%;height: 250px" alt="">
+                            </div>
+                            <div class="uk-card-body">
+                                <h3 class="uk-card-title">Costumbres</h3>
+                                <p>Las costumbres y tradiciones de Cajamarca tienen origen en la época preincaica</p>
+                            </div>
+                            <div>
+                                <p uk-margin>
+                                    <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle style="background: rgb(0, 0, 255)">Leer >></a>
+                                    <a class="uk-button uk-button-default" href="#modal-group-2" uk-toggle style="background: rgb(0, 0, 255)">Imagenes</a>
+                                </p>
+                                <div id="modal-group-1" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Costumbres</h2>
+                                        </div>
+                                        <div class="uk-modal-body">
+                                            <p>Cajamarca se caracteriza por sus manifestaciones folclóricas, que son religiosas y tradicionales principalmente.</br> En sus fiestas la población celebra ejecutando bailes típicos como la cashua, los chunchos,
+                                                la danza blanca, las pallas, la pachilla, la danza de los emplumados y la danza de los diablos.
+                                                </br><i>Fiestas de las cruces de Porcón: </i>Porcón es una localidad de Cajamarca. Desde la época de los incas, sus habitantes se especializaron en la talla tanto de madera como de piedra. En los últimos
+                                                tiempos, muchos de ellos se han dedicado a tallar piedras de lápidas.
+                                                </br>
+                                                </br><i>Carnaval: </i>Es una de las fiestas más populares e importantes de Cajamarca. Se destaca por el uso de disfraces coloridos, se escucha música popular en todas partes y hay juegos con agua. También es
+                                                típico beber chicha de jora.
+                                                </br>
+                                                </br><i>Fiesta de Navidad: </i>La Navidad en Cajamarca tiene una mezcla de catolicismo y costumbres incaicas. Una manifestación de esto es el canto de villancicos en idioma quechua, la confección del pesebre
+                                                o nacimiento con elementos naturales, y la confección y concurso de pallas y chullos (gorros típicos).
+                                                </br>
+                                                </br><i>Feria regional de Corpus Christi: </i>El obispo en la catedral celebra una misa de gran solemnidad. Cuando finaliza, se realiza una procesión que recorre todo el pueblo.
+                                                </br>
+                                                </br>
+                                            </p>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Imagenes</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="modal-group-2" uk-modal>
+                                    <div class="uk-modal-dialog">
+                                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                                        <div class="uk-modal-header">
+                                            <h2 class="uk-modal-title">Imagenes</h2>
+                                        </div>
+                                        <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/cos1.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/cos2.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/cos3.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-overflow-hidden">
+                                                    <img src="../images/cos4.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-modal-footer uk-text-right">
+                                            <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                                            <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Leer >></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+            </div>
+
+            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+        </div>
+    </section>
+    </br>
+    </br>
+</body>
+<footer>
+    <div>
+        <a href="#" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+        <a href="#" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+        <a href="#" class="uk-icon-button" uk-icon="google-plus"></a>
+        <a href="#" class="uk-icon-button" uk-icon="receiver"></a>
+    </div>
+</footer>
+<html>
